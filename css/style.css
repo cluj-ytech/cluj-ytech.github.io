@@ -29,7 +29,7 @@
 }
 
 .sticky {
-  background-color: #2b56f6;
+  background-color: #0090ff;
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid gainsboro;
@@ -162,18 +162,16 @@ p {
 }
 
 .hero {
-  position: relative;
-  background: #2b56f6 no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
-  padding-top: 110px;
-  font-weight: 700;
-  min-height: 500px;
-  letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (max-width: 580px) {
+    .test {
+        width: 50px !important;
+        left: 10px !important;
+        top: 10px !important;
+    }
 }
 
 .hero h1 {
@@ -213,14 +211,14 @@ p {
   border-radius: 13px;
   border: 2px solid #fff;
   position: absolute;
-  bottom: 40px;
-  position: absolute;
+  bottom: 180px;
   left: 50%;
   margin-left: -26px;
 }
 .mouse span {
   display: block;
-  margin: 6px auto;
+  margin: 9px auto;
+  bottom: 160px;
   width: 2px;
   height: 2px;
   border-radius: 4px;
@@ -249,7 +247,7 @@ p {
     float: left;
     width: 33.3%;
     padding: 15px;
-    
+
 }
 
 /* Style the list */
@@ -284,20 +282,48 @@ p {
 }
 .footer{
     width: 100%;
-    height:80px; 
-    background-color:#2b56f6;
+    height:80px;
+    background-color:#0090ff;
 }
+.footer a:link{
+    text-decoration: none;
+    color:#fff;
+}
+.footer a:visited{
+    text-decoration: none;
+    color:#fff;
+}
+.footer a:hover{
+    text-decoration: none;
+    color:#fefefe;
+}
+.footer a:active{
+    text-decoration: none;
+    color:#fff;
+}
+
+.dummy {
+    padding-top: 100%; /* forces 1:1 aspect ratio */
+}
+
+/*.img-container {*/
+    /*position: absolute;*/
+    /*top:20%;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*vertical-align: middle;*/
+/*}*/
 
 /* The "Sign Up" button */
 
 
-/* Change the width of the three columns to 100% 
+/* Change the width of the three columns to 100%
 (to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
     .columns {
         width: 100%;
     }
-}
 }
 
 @-webkit-keyframes scroll {
