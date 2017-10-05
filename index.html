@@ -12,6 +12,7 @@ brainand hearts into the projects they're developing. What we’ve learned so fa
     <meta name="author" content="Cluj Y. Tech">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+    <link rel="canonical" href="https://cluj-ytech.github.io">
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="img/favicon.png">
@@ -23,7 +24,7 @@ brainand hearts into the projects they're developing. What we’ve learned so fa
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto+Mono:400,700" rel="stylesheet">
 
     <link href='css/style.css' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="js/classie.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/analytics,js"></script>
@@ -45,10 +46,10 @@ brainand hearts into the projects they're developing. What we’ve learned so fa
 
             <nav>
                 <ul>
-                    <li><a href=".sec02">About</a></li>
-                    <li><a href=".sec03">Our Mission</a></li>
-                    <li><a href=".sec04">Contact</a></li>
-                    <li><a href=".sec05">Partners</a></li>
+                    <li><a href="#sec02">About</a></li>
+                    <li><a href="#sec03">Our Mission</a></li>
+                    <li><a href="#sec04">Contact</a></li>
+                    <li><a href="#sec05">Partners</a></li>
                 </ul>
             </nav>
 
@@ -57,8 +58,8 @@ brainand hearts into the projects they're developing. What we’ve learned so fa
 
     </header>
 
-    <div class="hero" style=" background: url('img/cover.jpg') center top fixed no-repeat; ">
-        <img class="test" src="img/logo.jpg" alt="Cluj Y. Tech Logo" style="position: absolute; float:left; width: 100px; top:30px; left:20px; padding-bottom:10px;">
+    <div class="hero">
+        <img class="test" src="img/logo.jpg" alt="Cluj Y. Tech Logo">
 
         <div class="img-container">
             <img src="img/text.svg" alt="Cluj Y. Tech">
@@ -66,117 +67,137 @@ brainand hearts into the projects they're developing. What we’ve learned so fa
     </div>
 
     <div class="row content">
-        <h1 class="sec01" style="font-size: 40px; text-align:center; color:#222222">Well hello there!</h1>
-        <p style="text-align:center;">We’re a group of young techies, studying in Cluj. We feel responsible for our own trajectory so for that we study and practice software development in school plus on our own free time. We belive that we should absorb all the knowledge we can from
-            University, but there is more knowledge, experience and ideas out there. Cluj is a vibrant city and we should take advantage of being here! And for that, we think we can do more if we stand united!
-        </p>
-
-        <h1 class="sec02" style="font-size: 40px; text-align:center; color:#222222">About Us</h1>
-        <p style="text-align:center;">Cluj Y.Tech was born through the wish of one Computer Science student who wanted to learn, but didn’t know how to or what to begin with, and who wanted to network with experienced people in order to receive advice. We envision this community to
-            be open for everyone who is looking to learn more about different technologies as well as to meet interesting professionals from different tech fields, and that means freedom and great responsibility for all of us who want to make this happen!
-            We believe in the pay it forward principle as a foundation for any healthy group. We are also interested to try out freedom. We know that with freedom comes great responsibility and we think it takes a lot of maturity to take responsibility
-            for anything we start or influence. We want to be there, to observe the world, to learn and to get involved! Instead of asking for permission, we’ll ask for guidance. We think it’s faster to fix something down the road than to start only after
-            having a perfect plan.
-
-            <h1 class="sec03" style="font-size: 40px; text-align:center; color:#222222">Our Mission</h1>
-            <p style="text-align:center;">We want to create an enabling environment for knowledge transfer between IT professionals and students and bring awareness about the power of coding in this era. As Robert C. Martin once said, <i>"Civilization depends upon us in ways it doesn't yet understand, in ways we don’t yet understood"</i>.
-                We'll do this by creating an active network between ourselves and opportunities for guidance from those that have already been down this road. Our vision is having a complex learning experience, including different learning styles & areas,
-                starting with coding and going forward with all the glue that makes great code into great projects.
+        <section id="sec01">
+            <h1 class="sec01 section">Well hello there!</h1>
+            <p>We’re a group of young techies, studying in Cluj. We feel responsible for our own trajectory so for that we study
+                and practice software development in school plus on our own free time. We belive that we should absorb all
+                the knowledge we can from University, but there is more knowledge, experience and ideas out there. Cluj is
+                a vibrant city and we should take advantage of being here! And for that, we think we can do more if we stand
+                united!
             </p>
+        </section>
 
-            <div class="features">
+        <section id="sec02">
+            <h2 class="sec02 section">About Us</h2>
+            <p>Cluj Y.Tech was born through the wish of one Computer Science student who wanted to learn, but didn’t know how
+                to or what to begin with, and who wanted to network with experienced people in order to receive advice. We
+                envision this community to be open for everyone who is looking to learn more about different technologies
+                as well as to meet interesting professionals from different tech fields, and that means freedom and great
+                responsibility for all of us who want to make this happen! We believe in the pay it forward principle as
+                a foundation for any healthy group. We are also interested to try out freedom. We know that with freedom
+                comes great responsibility and we think it takes a lot of maturity to take responsibility for anything we
+                start or influence. We want to be there, to observe the world, to learn and to get involved! Instead of asking
+                for permission, we’ll ask for guidance. We think it’s faster to fix something down the road than to start
+                only after having a perfect plan.</p>
+        </section>
+
+        <section id="sec03">
+            <h2 class="sec03 section">Our Mission</h2>
+            <p>We want to create an enabling environment for knowledge transfer between IT professionals and students and bring
+                awareness about the power of coding in this era. As Robert C. Martin once said, <i>"Civilization depends upon us in ways it doesn't yet understand, in ways we don’t yet understood"</i>.
+                We'll do this by creating an active network between ourselves and opportunities for guidance from those that
+                have already been down this road. Our vision is having a complex learning experience, including different
+                learning styles & areas, starting with coding and going forward with all the glue that makes great code into
+                great projects.
+            </p>
+        </section>
+
+        <div class="features">
+            <div class="columns">
+                <ul class="price">
+                    <li class="header"><img src="img/learn.jpg" alt="Learning"> </li>
+                    <li class="grey">
+                        <h3>Learn</h3>
+                    </li>
+                    <li>
+                        <p>Opportunity to learn latest technologies from experts in the field and enter the entrepreneurial
+                            world.
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="columns">
+                <ul class="price">
+                    <li class="header"><img src="img/code.jpg" alt="Coding"> </li>
+                    <li class="grey">
+                        <h3>Code</h3>
+                    </li>
+                    <li>
+                        <p>Improve your coding skills. Write code for humans not just for machines. <br> &nbsp; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; </p>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="columns">
+                <ul class="price">
+                    <li class="header"><img src="img/connect.jpg" alt="Connecting"> </li>
+                    <li class="grey">
+                        <h3>Connect</h3>
+                    </li>
+                    <li>
+                        <p>You get the chance of networking with other students and passionate, open minded developers.</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <section id="sec04">
+            <h2 class="sec04 section" style="clear:both;"> We're social:</h2>
+            <div class="features" style="text-align:center;">
                 <div class="columns">
-                    <ul class="price">
-                        <li class="header"><img src="img/learn.jpg"> </li>
-                        <li class="grey">
-                            <h3>Learn</h3>
-                        </li>
-                        <li>
-                            <p>Opportunity to learn latest technologies from experts in the field and enter the entrepreneurial world.</p>
-                        </li>
+                    <a href="https://facebook.com/clujytech/" target="_blank"><i class="fa fa-facebook fa-3x" aria-hidden="true" style="color:#222222;"></i></a>
+                </div>
 
-                    </ul>
+                <div class="columns">
+                    <a href="https://www.meetup.com/clujytech/" target="_blank"><i class="fa fa-meetup fa-3x" aria-hidden="true" style="color:#222222;"></i></a>
                 </div>
                 <div class="columns">
-                    <ul class="price">
-                        <li class="header"><img src="img/code.jpg"> </li>
-                        <li class="grey">
-                            <h3>Code</h3>
-                        </li>
-                        <li>
-                            <p>Improve your coding skills. Write code for humans not just for machines. <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
-                        </li>
-
-                    </ul>
-                </div>
-                <div class="columns">
-                    <ul class="price">
-                        <li class="header"><img src="img/connect.jpg"> </li>
-                        <li class="grey">
-                            <h3>Connect</h3>
-                        </li>
-                        <li>
-                            <p>You get the chance of networking with other students and passionate, open minded developers.</p>
-                        </li>
-
-                    </ul>
+                    <a href="https://github.com/cluj-ytech" target="_blank"><i class="fa fa-github-alt fa-3x" aria-hidden="true" style="color:#222222;"></i></a>
                 </div>
             </div>
+        </section>
 
-            <h1 class="sec04" style="font-size: 40px; text-align:center; color:#222222; clear:both;"> We're social:</h1>
-
-            <center>
-                <div class="features">
-                    <div class="columns">
-                        <a href="https://facebook.com/clujytech/" target="_blank"><i class="fa fa-facebook fa-3x" aria-hidden="true" style="color:#222222;"></i></a>
-                    </div>
-
-                    <div class="columns">
-                        <a href="https://www.meetup.com/clujytech/" target="_blank"><i class="fa fa-meetup fa-3x" aria-hidden="true" style="color:#222222;"></i></a>
-                    </div>
-                    <div class="columns">
-                        <a href="https://github.com/cluj-ytech" target="_blank"><i class="fa fa-github-alt fa-3x" aria-hidden="true" style="color:#222222;"></i></a>
-                    </div>
-                </div>
-            </center>
-            <h1 class="sec05" style="font-size: 40px; text-align:center; color:#222222; clear:both; padding-top:20px;">Partners:</h1>
-             <div class="main">
-				<ul class="cbp-ig-grid">
-					<li>
-						 <a href="http://cluj-javascripters.github.io/" target="_blank" title="Cluj JavaScripters">
+        <section id="sec05">
+            <h2 class="sec05 section" style="clear:both; padding-top:20px;">Partners:</h2>
+            <div class="main">
+                <ul class="cbp-ig-grid">
+                    <li>
+                        <a href="http://cluj-javascripters.github.io/" target="_blank" title="Cluj JavaScripters">
 							<span class="cbp-ig-icon"> <img src="img/cluJS.png" alt="Cluj JSers" style="width: 100px;"></span>
 							<h3 class="cbp-ig-title">Cluj JSers</h3>
 							<span class="cbp-ig-category">Partner</span>
 						</a>
-					</li>
-					<li>
-						<a href="http://cluj.codecamp.ro/" target="_blank" title="CodeCamp">
+                    </li>
+                    <li>
+                        <a href="http://cluj.codecamp.ro/" target="_blank" title="CodeCamp">
 							<span class="cbp-ig-icon "><img src="img/codecamp.jpeg" alt="CodeCamp" style="width: 180px;"></span>
 							<h3 class="cbp-ig-title">Codecamp</h3>
 							<span class="cbp-ig-category">Partner</span>
 						</a>
-					</li>
-					<li>
-						<a href="http://osut.org/" target="_blank" title="OSUT Cluj"
-							<span class="cbp-ig-icon"> <img src="img/logo-osut.png" alt="OSUT Cluj" style="width: 180px;"></span>
+                    </li>
+                    <li>
+                        <a href="http://osut.org/" target="_blank" title="OSUT Cluj" <span class="cbp-ig-icon"> <img src="img/logo-osut.png" alt="OSUT Cluj" style="width: 180px;"></span>
 							<h3 class="cbp-ig-title">OSUT Cluj</h3>
 							<span class="cbp-ig-category">Partner</span>
 						</a>
-					</li>
-					<li>
-						<a href="https://societatea-hermes.ro/" target="_blank" title="Societatea Hermes">
+                    </li>
+                    <li>
+                        <a href="https://societatea-hermes.ro/" target="_blank" title="Societatea Hermes">
 							<span class="cbp-ig-icon"><img src="img/hermes.png" alt="Societatea Hermes" style="width: 180px;"></span>
 							<h3 class="cbp-ig-title">Hermes</h3>
 							<span class="cbp-ig-category">Partner</span>
 						</a>
-					</li>
-					<li>
-						<a href="http://clujbusiness.ro/" target="_blank" title="Cluj Business">
+                    </li>
+                    <li>
+                        <a href="http://clujbusiness.ro/" target="_blank" title="Cluj Business">
 							<span class="cbp-ig-icon"><img src="img/clujbusiness.png" alt="Cluj Business" style="width: 110px;"></span>
 							<h3 class="cbp-ig-title">Cluj Business</h3>
 							<span class="cbp-ig-category">Partner</span>
 						</a>
-					</li>
+                    </li>
                     <li>
                         <a href="http://clujinnovationdays.com/" target="_blank" title="Cluj Innovation Days 2017">
                             <span class="cbp-ig-icon"><img src="img/clujinnovation.png" alt="Cluj Innovation Days 2017" style="width: 120px;"></span>
@@ -184,25 +205,33 @@ brainand hearts into the projects they're developing. What we’ve learned so fa
                             <span class="cbp-ig-category">Partner</span>
                         </a>
                     </li>
-					<li>
+                    <li>
                         <a href="http://romania.girlsintech.org/" target="_blank" title="Girls in Tech - Romania">
                             <span class="cbp-ig-icon"><img src="img/ro-girlsintech.png" alt="Girls in Tech - Romania" style="width: 220px;"></span>
                             <h3 class="cbp-ig-title">Girls in Tech</h3>
                             <span class="cbp-ig-category">Partner</span>
                         </a>
                     </li>
-    				<li>
-						<a href="https://www.girlswhocode.ro/" target="_blank" title="Girls Who Code - Romania">
+                    <li>
+                        <a href="https://www.girlswhocode.ro/" target="_blank" title="Girls Who Code - Romania">
 							<span class="cbp-ig-icon"><img src="img/girlswhocode.png" alt="Girls Who Code - Romania" style="width: 80px;"></span>
 							<h3 class="cbp-ig-title">Girls Who Code</h3>
 							<span class="cbp-ig-category">Partner</span>
 						</a>
-					</li>
-				</ul>
-			</div>
+                    </li>
+                    <li>
+                        <a href="http://www.devtalks.ro/" target="_blank" title="DevTalks">
+							<span class="cbp-ig-icon"><img src="img/dev-logo-black.png" alt="DevTalks" style="width: 240px;"></span>
+							<h3 class="cbp-ig-title">DevTalks</h3>
+							<span class="cbp-ig-category">Partner</span>
+						</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </div>
     <div class="footer">
-        <p style="text-align:center; color:#fff; padding-top:20px;"><a href="mailto:cluj.ytech@gmail.com">cluj.ytech@gmail.com</a> |<b><a href="https://www.facebook.com/groups/clujytech/"> Join Our Facebook Group</a></b> </p>
+        <p><a href="mailto:cluj.ytech@gmail.com">cluj.ytech@gmail.com</a> |<b><a href="https://www.facebook.com/groups/clujytech/"> Join Our Facebook Group</a></b>            </p>
     </div>
 
     <script src="js/index.js"></script>
