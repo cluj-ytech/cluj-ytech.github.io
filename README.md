@@ -1,4 +1,3 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c6e8579485ff415c8a94c6ad5721726b)](https://www.codacy.com/app/claudiunicola96/cluj-ytech.github.io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=cluj-ytech/cluj-ytech.github.io&amp;utm_campaign=Badge_Grade)
 # The website of Cluj Y.Tech community.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c6e8579485ff415c8a94c6ad5721726b)](https://www.codacy.com/app/claudiunicola96/cluj-ytech.github.io?utm_source=github.com&utm_medium=referral&utm_content=cluj-ytech/cluj-ytech.github.io&utm_campaign=badger)
