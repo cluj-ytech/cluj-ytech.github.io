@@ -164,10 +164,30 @@ p {
 .hero {
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  background-size: cover;
+  background: url('../img/cover.jpg') center top fixed no-repeat;
 }
 
+.section {
+  font-size: 40px; 
+  text-align:center; 
+  color:#222222
+}
+
+.section p {
+  text-align:center;
+}
+
+.logo {
+  position: absolute; 
+  float:left; 
+  width: 100px; 
+  top:30px; 
+  left:20px; 
+  padding-bottom:10px;
+}
 @media only screen and (max-width: 580px) {
-    .test {
+    .logo {
         width: 50px !important;
         left: 10px !important;
         top: 10px !important;
@@ -306,6 +326,12 @@ p {
 .footer a:active{
     text-decoration: none;
     color:#fff;
+}
+
+.footer p {
+  text-align:center; 
+  color:#fff; 
+  padding-top:20px;
 }
 
 .dummy {
