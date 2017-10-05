@@ -178,7 +178,7 @@ p {
   text-align:center;
 }
 
-.logo {
+.test {
   position: absolute; 
   float:left; 
   width: 100px; 
@@ -187,7 +187,7 @@ p {
   padding-bottom:10px;
 }
 @media only screen and (max-width: 580px) {
-    .logo {
+    .test {
         width: 50px !important;
         left: 10px !important;
         top: 10px !important;
