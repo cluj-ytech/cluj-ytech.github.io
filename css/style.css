@@ -186,6 +186,35 @@ p {
   left:20px; 
   padding-bottom:10px;
 }
+
+.social {
+  float: right;
+  color: #FFFFFF;
+}
+
+ul.social {
+  list-style-type: none;
+  width: 100px;
+}
+
+.fa-facebook:hover {
+  color: #0C52DF;
+}
+
+.fa-meetup:hover {
+  color: #CC1F1F;
+}
+
+.fa-github-alt:hover {
+  color: #271212;
+}
+
+.social li {
+  vertical-align: top;
+  /* display: inline; */
+  margin: 20px 0px;  
+}
+
 @media only screen and (max-width: 580px) {
     .test {
         width: 50px !important;
